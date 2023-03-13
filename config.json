@@ -1,0 +1,31 @@
+{
+  "server": {
+    "port": 9143
+  },
+  "socketConn": {
+    "port": 9153
+  },
+  "#dbUrl": "mongodb://localhost:27017/responsealert",
+  "dbUrl": "mongodb://responsealert:dcfvbSDFVtD@54.201.160.69:58173/responsealert",
+
+  "customerUrl": "http://54.201.160.69:9139",
+  "dealerUrl": "http://54.201.160.69:9144",
+  "adminUrl": "http://54.201.160.69:9138",
+
+  "secretKey": "responsealert-app",
+  "uploadUrl": "/public/uploads/",
+  "pdfUrl": "/public/output/",
+  "staticFilesUrl": "http://54.201.160.69:9143/",
+  "#staticFilesUrl": "http://localhost:9143/",
+  "emailVerifyURL": "",
+  "appURL": "",
+  "smsKey": "",
+  "stripe_refresh_url": "http://localhost:9143/reauth",
+  "auth": {
+    "user": "InsureNowco@gmail.com",
+    "pass": "bycrljgqbkjaamxk",
+    "smtp": "smtp.gmail.com",
+    "port": 587,
+    "security": "TLS"
+  }
+}
